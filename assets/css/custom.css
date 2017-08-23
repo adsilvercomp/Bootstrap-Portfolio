@@ -4,8 +4,21 @@
 
 .navbar-brand{
 	background-color: #4aaaa5;
-	color:#FFFFFF;
 }
+
+.navbar-nav{
+	float:right;
+	color:white !important;
+}
+
+span.navbar-brand.nav{
+	color:white;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color:white;
+}
+
 
 .footer{
 	background-color:#4aaaa5;
@@ -18,9 +31,10 @@
 
 .img{
 	width:75px;
-	height:80px;
+	height:65px;
 	margin-bottom:10px;
-	
+	padding-left:5px;
+	padding-right:5px;
 }
 
 .img2{
@@ -28,15 +42,18 @@
 	height:150px;
 	float:left;
 	margin-right: 10px;
+	padding-left:5px;
+}
+
+.img3{
+	width:200px;
+	height:150px;
 }
 
 #main-container{
 	background-image:url("../images/vertical-waves.png");
 	background-size:cover;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat:no-repeat;
-	min-height:750px;
+	min-height:850px;
 }
 
 .white{
@@ -47,4 +64,44 @@
 
 #icons{
 	align-content: center;
+}
+
+.pTitle{
+	background-color:#4aaaa5;
+	color:white;
+	margin-right:30%;
+	margin-left:30%;
+}
+
+#paragraph{
+	margin-bottom:30px;
+	padding-right:10px;
+	padding-left:10px;
+	line-height: 30px
+}
+
+.cTitle{
+	margin-top:10px;
+	color:#4aaaa5;
+	margin-left:10%;
+}
+
+.btn{
+	background-color:#4aaaa5;
+	color:white;
+	margin-left:10%;
+	margin-bottom:5%;
+}
+
+.fBox{
+	min-width: 80%;
+	margin-right:10%;
+	margin-left:10%;
+}
+
+#textField{
+	min-width: 80%;
+	margin-right:10%;
+	margin-left:10%;
+	height:150px;
 }
